@@ -31,7 +31,7 @@ Before  you run the code, you should prepare the dataset.  You must replace  the
 
 ```shell
 ROOT_PATH = '../..' # for linux
-ROOT_PATH = 'D:/code/Image_WGAN'  # for windows 
+ROOT_PATH = 'D:/code/Image_WGAN_GP'  # for windows 
 ```
 
 We provide the mnist , fashionmnist and cifar10 datasets. But you can download others , when you run the code.  For example , download the cifar100, just add the following code in `main.py` and  **you should modify the models(We will finish it later)**. 
