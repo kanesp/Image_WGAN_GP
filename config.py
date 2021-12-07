@@ -3,7 +3,7 @@ import pickle
 import os
 from utils import mkdir
 
-RESULT_DIR = 'D:/code/Image_WGAN/results'
+RESULT_DIR = 'D:/code/Image_WGAN_GP/results'
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
