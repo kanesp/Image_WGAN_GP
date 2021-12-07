@@ -127,5 +127,5 @@ Generative Adversarial Networks (GANs) are powerful generative models, but suffe
 
 [[Paper\]](https://arxiv.org/abs/1704.00028) 
 
-![wgan_gp](F:\download\wgan_gp.gif)
+![wgan_gp](https://github.com/kanesp/Image_WGAN_GP/blob/main/wgan_gp.gif?raw=true)
 
