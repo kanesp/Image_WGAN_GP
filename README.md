@@ -41,7 +41,7 @@ opt.dataset == 'cifar100':
     os.makedirs(ROOT_PATH + "/data/cifar100", exist_ok=True)
     dataloader = torch.utils.data.DataLoader(
         datasets.CIFAR100(
-            ROOT_PATH + "data/cifar100",
+            ROOT_PATH + "/data/cifar100",
             train=True,
             download=True,
             transform=transforms.Compose(
