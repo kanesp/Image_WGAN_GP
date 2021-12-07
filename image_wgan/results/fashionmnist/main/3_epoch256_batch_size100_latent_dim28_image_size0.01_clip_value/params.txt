@@ -1,0 +1,17 @@
+n_epochs:3
+batch_size:256
+lr:0.0002
+b1:0.5
+b2:0.999
+n_cpu:8
+latent_dim:100
+img_size:28
+channels:1
+n_critic:5
+clip_value:0.01
+sample_interval:400
+exp_name:3_epoch256_batch_size100_latent_dim28_image_size0.01_clip_value
+pretrain_iterations:2000
+pretrain:False
+dataset:fashionmnist
+save_dir:D:/code/Image_WGAN/results\fashionmnist\main\3_epoch256_batch_size100_latent_dim28_image_size0.01_clip_value
