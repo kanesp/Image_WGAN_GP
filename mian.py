@@ -5,7 +5,7 @@ from torchvision.utils import save_image
 from utils import *
 from models import *
 
-ROOT_PATH = 'D:/code/Image_WGAN'  # for windows
+ROOT_PATH = 'D:/code/Image_WGAN_GP'  # for windows
 
 
 # ROOT_PATH = '../..' # for linux
