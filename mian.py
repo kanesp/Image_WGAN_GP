@@ -60,7 +60,7 @@ def main(args):
         os.makedirs(ROOT_PATH + "/data/cifar10", exist_ok=True)
         dataloader = torch.utils.data.DataLoader(
             datasets.CIFAR10(
-                ROOT_PATH + "data/cifar10",
+                ROOT_PATH + "/data/cifar10",
                 train=True,
                 download=True,
                 transform=transforms.Compose(
